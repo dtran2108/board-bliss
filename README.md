@@ -1,2 +1,2 @@
-# board-bliss
+# Board Bliss
 Kanban task management web app
