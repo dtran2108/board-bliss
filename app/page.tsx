@@ -11,7 +11,10 @@ export default function Home() {
       {JSON.stringify(state.value)}
       <button onClick={() => {
         send({type: "Todos loaded"})
-      }}>Hover</button>
+      }}>todo loaded</button>
+      <button onClick={() => {
+        send({type: "Loading todos failed"})
+      }}>todo error</button>
     </main>
   );
 }
